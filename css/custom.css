@@ -1,0 +1,166 @@
+ #portfolio article p, #news article p  {
+ font-family: 'Patua One', cursive;
+	font-size: 40px;
+	margin-bottom: 0;
+	line-height: 1.35;
+	color: #f0bf00;
+     text-align: center;
+}
+
+section#services .span4 {
+	background:#e9e9e9;
+	padding: 20px 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+section#services .span4:hover {
+	background:#e3e3e3;
+	box-shadow: 1px 1px 6px #C1BAC1;
+}
+
+#services input[type=submit] {
+	font-family: 'Patua One', cursive;
+	color: #fff;
+	width: 185px;
+	height: 60px;
+	text-shadow: none;
+	font-size: 1.3125em; /* 21px */
+	padding:0.5em;
+	letter-spacing: 0.05em;
+	margin: 0 0 20px 0;
+	display: block;
+	border: 0;
+	text-transform: none;
+	background: #f0bf00 !important;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+
+div#input_div {
+    position: relative;
+}
+
+div#input_div input.cform-submit {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}
+ 
+div.careers {
+    padding-bottom: 150px;
+    background-color: red;
+}
+/* ---------------------------------------------------------------------------------------------------------- 
+09 Media queries --------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+
+/* RESPONSIVE 
+-------------------------------------------------- */
+@media (min-width: 1440px) and (max-width: 2560px) {
+      #portfolio article p, #news article p{
+            font-size: 40px;
+        }
+}
+
+@media (max-width: 1186px) {
+  
+        #portfolio article p, #news article p{
+            font-size: 40px;
+        }
+}
+ @media (max-width: 979px) {
+     #portfolio article p, #news article p{
+            font-size: 40px;
+        }
+}
+ @media (min-width: 768px) and (max-width: 979px) {
+  #portfolio article p, #news article p{
+            font-size: 40px;
+        }
+}
+ @media (max-width: 767px) {
+     #portfolio article p, #news article p{
+            font-size: 30px;
+        }
+  
+}
+    
+    /* Smaller screens ----------- */
+	@media (max-width : 480px) {
+        #portfolio article p, #news article p{
+            font-size: 26px;
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+    
+    /* Smartphones (portrait and landscape) ----------- */
+	@media only screen  and (min-device-width : 320px)  and (max-device-width : 480px) {
+
+        
+        /*Carrers Section Apply Now Button*/
+        
+        #services input[type=submit] {
+ width: 100%;
+}
+    }
+		
+		/* Feature */
+		
+		/* Portfolio & News */
+		
+ 
+	
+		/* Services */
+		
+
+	    /* Testimonials */
+	    
+	
+		/* team */
+		
+		
+		/* Contact Form */
+	/* Smartphones (landscape) ----------- */
+	@media only screen  and (min-width : 321px) {
+
+}
+	
+	/* Smartphones (portrait) ----------- */
+	@media only screen  and (max-width : 320px) {
+
+}	
+	/* iPads (portrait and landscape) ----------- */
+	@media only screen  and (min-device-width : 768px)  and (max-device-width : 1024px) {
+ 
+}
+	
+	/* iPads (landscape) ----------- */
+	@media only screen  and (min-device-width : 768px)  and (max-device-width : 1024px)  and (orientation : landscape) {
+/* Styles */
+	}
+	
+	/* iPads (portrait) ----------- */
+	@media only screen  and (min-device-width : 768px)  and (max-device-width : 1024px)  and (orientation : portrait) {
+/* Styles */
+	}
+	
+	/* Desktops and laptops ----------- */
+	@media only screen  and (min-width : 1224px) {
+/* Styles */
+	}
+
+
